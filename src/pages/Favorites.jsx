@@ -11,7 +11,7 @@ function Favorites() {
         <div className="content p-40">
           <div className="d-flex align-center mb-40 ">
             <Link to="/">
-              <img className="mr-20" src="/images/go-back-arrow.svg" /> 
+              <img className="mr-20" src="/images/go-back-arrow.svg" alt="go back"/> 
             </Link>
             <h1>Мои закладки</h1>
           </div>
