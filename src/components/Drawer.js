@@ -2,7 +2,6 @@ import React from 'react';
 import axios from 'axios';
 
 import Info from './Info';
-import AppContext from '../context';
 import { useCart } from '../hooks/useCart';
 
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

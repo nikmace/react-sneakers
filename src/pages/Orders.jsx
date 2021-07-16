@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 import Card from '../components/Card';
-import AppContext from '../context';
 
 function Orders() {
   const [orders, setOrders] = React.useState([]);
